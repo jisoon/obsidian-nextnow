@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/vuejs 주니오 가이드.md",
+                "file": "00-inbox/2025-02-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "vuejs 주니오 가이드"
+              "title": "2025-02-28"
             }
           },
           {
@@ -284,6 +284,7 @@
   },
   "active": "716bfea53c969ecc",
   "lastOpenFiles": [
+    "00-inbox/vuejs 주니오 가이드.md",
     "00-inbox/2025-02-28.md",
     "2024.03.25 주간 일정.md",
     "2024.03.25 SS 개발회의 정리.md",
@@ -298,7 +299,6 @@
     "04-Reource/최지순 경력 기술서.md",
     "04-Reource/React StoryBook 도입.md",
     "04-Reource/JSP Tag 를 이용한 Component 설계 지침.md",
-    "00-inbox/vuejs 주니오 가이드.md",
     "00-inbox/2025-02-27.md",
     "00-inbox/2025-02-26.md",
     "00-inbox/2025-02-19.md",
