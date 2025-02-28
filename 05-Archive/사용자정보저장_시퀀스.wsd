@@ -1,0 +1,26 @@
+@startuml 사용자정보저장
+    participant User
+    participant IW as "아임웹 웹페이지"
+    participant AA as "관리자 API"
+    participant IW_API as "아임웹 고객 정보 조회 API"
+    participant DB as "데이터베이스"
+
+    User ->> IW: 로그인
+    IW ->> IW: 로그인 정보 추출
+    IW ->> AA: 고객 정보 저장 API 로 아이디 및 비밀번호 전송
+    AA ->> DB: 고객 정보 조회
+    DB -->> AA: 고객 정보 응답    
+    alt 사용자 정보 존재
+        AA -->> AA: 비밀번호 검증
+        alt 비밀번호가 일치 할 경우
+            AA -->> IW: JWT 토큰 발급
+        else 비밀번호가 다를 경우
+            AA -->> DB: 비밀번호 update
+            AA -->> IW: JWT 토큰 발급
+        end
+    else 사용자 정보 없음
+        AA ->> DB: 새 사용자 정보 저장
+        AA -->> IW: JWT 토큰 발급
+    end
+    IW -->> IW: 쿠키 저장
+@enduml

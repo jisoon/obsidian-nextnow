@@ -1,0 +1,44 @@
+# Obsidian 기본 설정 파일 및 캐시
+.obsidian/cache
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/plugins/
+
+# 모바일 앱 설정
+.obsidian.mobile/
+
+# 검색 인덱스 파일
+.obsidian/core-plugins-migration.json
+.obsidian/core-plugins.json
+.obsidian/hotkeys.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/graph.json
+
+# 백업 파일
+.backup/
+
+# 동기화 충돌 파일
+*.sync-conflict-*
+
+# 임시 파일
+*.temp
+.tmp
+tmp/
+
+# 시스템 파일
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# 노트 자체는 Git으로 관리하고 싶지만, 첨부 파일은 제외하고 싶은 경우
+# 아래 줄의 주석을 제거하세요
+# attachments/
+
+# 개인 노트를 제외하고 싶은 경우
+# Private Notes/
+# private/
+# personal/
+
+# Obsidian Git 플러그인 백업 파일
+.obsidian-git-data

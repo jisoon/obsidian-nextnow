@@ -1,0 +1,13 @@
+@startuml 고객_페이지_이동
+    participant IW as "아임웹 페이지"
+    participant AA as "관리자 API"    
+
+    IW->>AA: 페이지 이동 URL 요청 request body 에 type과 token 전달
+    AA->>AA: JWT 토큰 검증
+    alt 검증 실패        
+        AA-->>IW: 401 status 응답
+    else 검증 성공        
+        AA -->>IW: 302 status 응답 (Location 헤더에 type에 해당하는 페이지 URL 포함)
+    end
+
+@enduml
