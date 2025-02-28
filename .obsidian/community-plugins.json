@@ -15,5 +15,7 @@
   "update-time-on-edit",
   "obsidian-plugin-toc",
   "smart-composer",
-  "obsidian-git"
+  "obsidian-git",
+  "code-emitter",
+  "recent-files-obsidian"
 ]
