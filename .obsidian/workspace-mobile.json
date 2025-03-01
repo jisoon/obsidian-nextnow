@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/2025-02-28.md",
+                "file": "00-inbox/vuejs 주니오 가이드.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-02-28"
+              "title": "vuejs 주니오 가이드"
             }
           },
           {
@@ -284,8 +284,9 @@
   },
   "active": "716bfea53c969ecc",
   "lastOpenFiles": [
-    "00-inbox/vuejs 주니오 가이드.md",
+    "00-inbox/vuejs2 액티브X.md",
     "00-inbox/2025-02-28.md",
+    "00-inbox/vuejs 주니오 가이드.md",
     "2024.03.25 주간 일정.md",
     "2024.03.25 SS 개발회의 정리.md",
     "2024.03.25 ~ 29 주간 일정.md",
@@ -311,7 +312,6 @@
     "00-inbox/2025-01-07.md",
     "00-inbox/2025-01-08.md",
     "daily/2024-12-20.md",
-    "daily/2024-12-24.md",
     "03-Area/업무프로세스 정립",
     "00-inbox/Pasted image 20241209174350.png",
     "02-Project/UMS 파일럿 프로젝트/#박승한 어다인님과 통화.m4a",
